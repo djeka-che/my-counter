@@ -1,6 +1,11 @@
 body {
   width: 1440px;
   margin: auto;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #fff;
 }
 header {
   width: 760px;
@@ -23,10 +28,7 @@ header {
   font-size: 24px;
   color: #003399;
 }
-.Score {
-  width: 182px;
-  height: 339px;
-  font-weight: normal;
+.counter {
   font-size: 288px;
   line-height: 339px;
   text-align: center;
@@ -41,7 +43,7 @@ header {
 .Number {
   margin: auto;
 }
-.Blue-button {
+.BlueButton {
   width: 200px;
   height: 58px;
   background: #003399;
@@ -50,7 +52,7 @@ header {
   line-height: 50px;
   font-size: 30px;
 }
-.Orange-button {
+.OrangeButton {
   width: 200px;
   height: 58px;
   background: #F27C0F;
@@ -59,7 +61,7 @@ header {
   line-height: 50px;
   font-size: 30px;
 }
-.Grey-button {
+.GreyButton {
   width: 200px;
   height: 58px;
   background: #E5E5E5;
