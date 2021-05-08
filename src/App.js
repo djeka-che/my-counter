@@ -4,11 +4,11 @@ function App() {
     const [counter, setCounter] = useState(0)
 
     function plus() {
-        setCounter(counter + 1)
+        setCounter(counter + 3)
     }
 
     function minus() {
-        setCounter(counter - 1)
+        setCounter(counter - 2)
         if (counter <= 0) {
             setCounter(0)
         }
